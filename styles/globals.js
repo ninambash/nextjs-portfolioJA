@@ -1,13 +1,37 @@
-import { ThemeProvider } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
 
-import theme from "../themes/default";
-import GlobalStyles from './globals';
+const GlobalStyles = createGlobalStyle`
+  ${normalize};
 
-const Theme = ({ children }) => (
-  <ThemeProvider theme={theme}>
-    <GlobalStyles />
-    {children}
-  </ThemeProvider>
-);
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 
-export default Theme;
+  }
+  body {
+    font-family: ${props => props.theme.fonts.main};
+    font-size: 1.6rem;
+    background: ${props => props.theme.colors.background1};
+    color: ${props => props.theme.colors.primary1};
+    cursor: default;
+
+  }
+  h1,h2,h3,h4,h5,h6,button {
+    font-family: ${props => props.theme.fonts.title};
+  }
+  a {
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  }
+
+`;
+
+export default GlobalStyles;
