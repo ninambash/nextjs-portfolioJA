@@ -2,7 +2,7 @@
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 
-import Timeline from "../components/Timeline/TimeLine"
+import Timeline from "../components/Timeline/TimeLine";
 import Skills from '@/components/Skills/Skills';
 import Education from '@/components/Education/Education';
 import Experience from '../components/Experience/Experience';
