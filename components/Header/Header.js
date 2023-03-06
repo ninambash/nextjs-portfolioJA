@@ -23,15 +23,16 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="#projects">
+        <Link href="#Skills">
+          <NavLink>Skills</NavLink>
+        </Link>
+      </li>  
+      <li>
+        <Link href="#Experience">
           <NavLink>Experience</NavLink>
         </Link>
       </li> 
-      <li>
-        <Link href="#tech">
-          <NavLink>Skills</NavLink>
-        </Link>
-      </li>          
+              
       <li>
         <a href="/images/Resume.pdf" download>
           <NavLink>CV</NavLink>
