@@ -1,9 +1,8 @@
-import Acomplishments from '../components/Accomplishments/Acomplishments';
+
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
+
+import Timeline from "../components/Timeline/TimeLine"
 import Skills from '@/components/Skills/Skills';
 import Education from '@/components/Education/Education';
 import Experience from '../components/Experience/Experience';
@@ -14,10 +13,10 @@ import { Section } from '../styles/GlobalComponents';
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
+      {/* <Section grid> */}
         <Hero />
-        <BgAnimation />
-      </Section>
+        {/* <BgAnimation /> */}
+      {/* </Section> */}
       <Timeline />
       <Skills/>
       <Experience/>
