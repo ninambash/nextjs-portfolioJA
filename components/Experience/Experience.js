@@ -4,12 +4,12 @@ import styled from 'styled-components';
 const Experience = () => {
   return (
     <ExperienceContainer>
-      <ExperienceTitle>Professional Experiences</ExperienceTitle>
+      <ExperienceTitle></ExperienceTitle>
       <ExperienceList>
-        <li>Expertise in communication, public policy, governance, social media, debate, and public speaking.</li>
+        {/* <li>Expertise in communication, public policy, governance, social media, debate, and public speaking.</li>
         <li>Leadership positions at Lean Leap Consultants, UN Women Eastern and Southern Region, Partnership for African Social and Governance Research, and Kenya National Debate Council.</li>
         <li>Managed finances, developed and implemented strategic plans, established partnerships, conducted training, and moderated debates and discussions.</li>
-        <li>Worked as a communication director and moderator for various events and organizations.</li>
+        <li>Worked as a communication director and moderator for various events and organizations.</li> */}
       </ExperienceList>
     </ExperienceContainer>
   );

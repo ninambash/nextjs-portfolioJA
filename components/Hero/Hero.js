@@ -16,7 +16,7 @@ const Hero = () => (
         <SectionText>
         COMMUNICATIONS, GOVERNANCE AND PUBLIC POLICY CONSULTANT
         </SectionText>
-        <Button onClick={() => (window.location = 'https://www.linkedin.com/in/ninambarack-dev/')}>
+        <Button onClick={() => (window.location = 'https://www.linkedin.com/in/josiah-adiema-adiema-ab95b826')}>
           View my LinkedIn Profile
         </Button>
       </div>

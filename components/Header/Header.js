@@ -22,6 +22,16 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      {/* <li>
+        <Link href="#Projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>  */}
+      <li>
+        {/* <Link href="#Technologies">
+          <NavLink>Technologies</NavLink>
+        </Link> */}
+      </li> 
       <li>
         <Link href="#Skills">
           <NavLink>Skills</NavLink>
@@ -43,7 +53,7 @@ const Header = () =>  (
       <SocialIcons href="https://www.facebook.com/kingjosiahadiemaadiema/">
         <BsFacebook size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/ninambarack-dev/">
+      <SocialIcons href="https://www.linkedin.com/in/josiah-adiema-adiema-ab95b826">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.Twitter.com/in/TheDebateGuru/">

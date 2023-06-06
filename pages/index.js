@@ -1,8 +1,9 @@
-
+import Acomplishments from '../components/Accomplishments/Acomplishments';
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
-
-import Timeline from "../components/Timeline/TimeLine";
+import Projects from '../components/Projects/Projects';
+import Technologies from '../components/Technologies/Technologies';
+import Timeline from "../components/Timeline/TimeLine"
 import Skills from '@/components/Skills/Skills';
 import Education from '@/components/Education/Education';
 import Experience from '../components/Experience/Experience';
@@ -21,6 +22,9 @@ const Home = () => {
       <Skills/>
       <Experience/>
       <Education/>
+      <Technologies/>
+      <Projects/>
+      <Acomplishments/>
      
     </Layout>
   );

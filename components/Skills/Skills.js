@@ -1,4 +1,5 @@
 import React from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
 
 const SkillsContainer = styled.div`
@@ -37,17 +38,18 @@ const SkillsItem = styled.li`
   
 `;
 
+
 const Skills = () => {
   return (
     <SkillsContainer>
-      <SkillsTitle>Skills & Abilities</SkillsTitle>
+      {/* <SkillsTitle>Skills & Abilities</SkillsTitle> */}
       <SkillsList>
-        <SkillsItem>Research and Analytical Skills</SkillsItem>
+        {/* <SkillsItem>Research and Analytical Skills</SkillsItem>
         <SkillsItem>Report Writing</SkillsItem>
         <SkillsItem>Public Policy Analyst</SkillsItem>
         <SkillsItem>Event MC and Moderation</SkillsItem>
         <SkillsItem>Trainer in Public Speaking, Debate, and Critical Thinking</SkillsItem>
-        <SkillsItem>Social Media Trainer, Strategist, and Consultant</SkillsItem>
+        <SkillsItem>Social Media Trainer, Strategist, and Consultant</SkillsItem> */}
       </SkillsList>
     </SkillsContainer>
   );
